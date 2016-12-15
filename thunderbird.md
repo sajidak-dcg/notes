@@ -3,7 +3,7 @@
 2. Profile Buttons
 3. SmartTemplate4
 4. Stationery
-5. Super Date Format `%d-%b-%y %R`
+5. Super Date Format `%d-%b-%y %H:%M`
 
 # Thunderbird Templates:
 
@@ -28,15 +28,14 @@ Settings to emulate outlook, and use personal preferences
 ```
 
 
-## Other Settings:
+## Other Settings: Select/Check these
 - Use instead of [Disable] default quote header
 - use HTML (e.g. <b>bold</b>)
+- Replace line breaks with <br> (Uncheck after a restart, if untouched is treated as checked)
 
-
-## Global Settings:
+## Global Settings: Select/Check these
 - Process Signature
 - Add `--` in HTML mail
-- Add `--` in plain text mail
 - Support Stationery addon
 - Force Paragraph Mode
 
@@ -69,9 +68,9 @@ Settings to emulate outlook, and use personal preferences
 			display: block;
 		}
 		blockquote.cite[type=cite]{
-			margin: 0px;
-			padding: 0px;
-			border-width: 0px;
+			margin: 0px !Important;
+			padding: 0px !Important;
+			border-width: 0px !Important;
 		}
 	</style>
 </head>
