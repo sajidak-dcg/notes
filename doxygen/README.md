@@ -89,7 +89,7 @@ These Folders/Locations/Paths will be unique to your installation, and care shou
 	-	Select node `Input`
 	-	Change parameter `INPUT`, add value `<src-path>`
 	-	Change parameter `HTML_HEADER`, set to value `<config-path>\header.html`
-	-	Change parameter `HTML_FOOTER`, set to value `<config-path>`
+	-	Change parameter `HTML_FOOTER`, set to value `<config-path>\footer.html`
 -	Select node `Dot`
 	-	Change parameter `DOT_PATH`, set to value `<install-path>\graphviz`
 
