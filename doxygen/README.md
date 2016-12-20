@@ -62,7 +62,7 @@ These Folders/Locations/Paths will be unique to your installation, and care shou
 	-	header.html
 	-	DoxygenLayout.xml  
 
-> Note: do NOT copy from rendered content, copy from `raw` source
+> Note: do NOT copy from rendered content, copy from `Raw` source
 
 ## Prepare
 1.	Rename file `<config-path>\xPRJx-Docs-GenOpts.dat` replacing `xPRJx` with your project name or code
@@ -71,7 +71,7 @@ These Folders/Locations/Paths will be unique to your installation, and care shou
 	-	Edit file `<doc-path>\zPRJx-Docs.htm` (in notepad or any editor of your choice)
 	-	Replace all instances of `xPRJx` in the file with your project code or name
 	-	Save file as `<doc-path>\zPRJx-Docs.htm` replacing `xPRJx` with your project code or name
-	
+
 	>	Remember the renamed file name. This will later be referred to as `<doc-entry-point>`  
 	>	Users will use this file as the entry point  
 	>	This file is necessary as `index.htm` will be difficult to locate amongst all the generated files.  
